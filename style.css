@@ -1,0 +1,64 @@
+body{
+    background: rgb(240, 239, 239);
+}
+
+.container{
+    background:white;
+    position: relative;
+    top: 80px;
+    padding: 10px;
+}
+
+#landing_title{
+    color:white;
+    font-size: 30px;
+}
+
+.navbar-brand {
+    padding: 15px;
+    background: #35cba8;
+  }
+
+h1{
+    color: #35cba8;
+    padding: 10px;
+}
+
+h2{
+    color: #35cba8;
+    padding: 10px;
+}
+
+h3{
+    color: #35cba8;
+    padding: 10px;
+    text-align: center;
+}
+
+#select{
+    border: #35cba8 3px solid;
+}
+
+.img-thumbnail{
+    padding:10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+thead{
+    font-weight: bold;
+}
+
+.table tr:nth-child(odd){
+    background: rgb(247, 247, 247);
+}
+
+.table tr:nth-child(even){
+    background:white;
+}
+
+@media (min-width: 1200px) {
+.container {
+        max-width: 80%;
+    }
+}

@@ -11,10 +11,12 @@
     <body>
 
         <nav class = "navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="landing.html">Latitude</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div>
+                <a class="navbar-brand" href="index.html"><span id="landing_title">Latitude</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -47,27 +49,28 @@
                     <div class="tumbnail">
                         <img class = "img-thumbnail float-left" src = "Resources/assets/Fig4.png" width="100%" alt="Wind_Speed">
                     </div>
-                    <p> Text </p>
+                    <p> The scatter plot from the dataset shows that the wind speed is generally below 20 mph at this time of year regardless of the location of the city.
+                        This suggests that there is no correlation between the two variables. </p>
                 </div>
 
                 <div class = "col-md-4">
-                    <h3>Visualizations</h3>
+                    <h2>Visualizations</h2>
                     <hr>
                     <div class = "row">
-                        <div class="col-md-6">
+                        <div class="col-3 col-md-6">
                             <a href="temperature.html"><img src="Resources/assets/Fig1.png" width="100%" alt="Max_Temperature">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-3 col-md-6">
                             <a href="humidity.html"><img src="Resources/assets/Fig2.png" width="100%" alt="Humidity">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-3 col-md-6">
                             <a href="cloudiness.html"><img src="Resources/assets/Fig3.png" width="100%" alt="Cloudiness">
                             </a>
                         </div>
-                        <div class="col-md-6">
-                            <a href="windspeed.html"><img src="Resources/assets/Fig4.png" width="100%" alt="Wind_Speed">
+                        <div class="col-3 col-md-6">
+                            <a href="windspeed.html"><img src="Resources/assets/Fig4.png" id = "select" width="100%" alt="Wind_Speed">
                             </a>
                         </div>
                     </div>

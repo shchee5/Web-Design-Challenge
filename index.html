@@ -11,10 +11,12 @@
     <body>
 
         <nav class = "navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="landing.html">Latitude</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div>
+                <a class="navbar-brand" href="index.html"><span id="landing_title">Latitude</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -45,7 +47,7 @@
                     <h1>Summary: Latitude vs. X</h1>
                     <hr>
                     <div class="tumbnail">
-                        <img class = "img-thumbnail float-left" src = "Resources/assets/Fig1.png" width="50%" alt="Max_Temperature">
+                        <img class = "img-thumbnail float-left" src = "Resources/assets/Fig1.png" width="60%" alt="Max_Temperature">
                     </div>
                     <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. 
                         To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.
@@ -58,22 +60,22 @@
                 </div>
 
                 <div class = "col-md-4">
-                    <h3>Visualizations</h3>
+                    <h2>Visualizations</h2>
                     <hr>
                     <div class = "row">
-                        <div class="col-md-6">
+                        <div class="col-3 col-md-6">
                             <a href="temperature.html"><img src="Resources/assets/Fig1.png" width="100%" alt="Max_Temperature">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-3 col-md-6">
                             <a href="humidity.html"><img src="Resources/assets/Fig2.png" width="100%" alt="Humidity">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-3 col-md-6">
                             <a href="cloudiness.html"><img src="Resources/assets/Fig3.png" width="100%" alt="Cloudiness">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-3 col-md-6">
                             <a href="windspeed.html"><img src="Resources/assets/Fig4.png" width="100%" alt="Wind_Speed">
                             </a>
                         </div>
